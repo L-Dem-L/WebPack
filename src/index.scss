@@ -1,0 +1,26 @@
+// Import libraries css
+
+// Global styles for the app
+@import 'style/global/fonts';
+@import 'style/global/variables';
+@import 'style/global/mixins';
+
+// Local styles for pages and components
+@import url('./style/pages/_about.scss');
+
+body{
+    background-color: $primary-color;
+    color: rgb(209, 239, 10);
+    h1{
+        font-family: 'Roboto', sans-serif;
+    }
+    .img{
+        background-image: url('./assets/img/test.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 300px;
+        min-height: 300px;
+    }
+}
